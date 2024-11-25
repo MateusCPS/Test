@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Episódios Favoritos</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <header>
+    <h1>Episódios Favoritos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html">Personagens</a></li>
+        <li><a href="episodios.html">Episódios</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="episodes">
+      <div class="episode">
+        <img src="img/episodio1.jpg" alt="Episódio 1">
+        <h3>A Cidade da Heresia</h3>
+        <p>Edward e Alphonse chegam a Lior, uma cidade dominada por uma figura religiosa chamada Cornello. Eles enfrentam Cornello, que usa alquimia para enganar as pessoas, e descobrem que ele é na verdade um homúnculo, dando início à batalha contra a corrupção.</p>
+        <button id="btnTrailer1">Assistir ao Trailer</button>
+      </div>
+      <div class="episode">
+        <img src="img/episodio2.jpg" alt="Episódio 2">
+        <h3>Caminhos Distintos</h3>
+        <p>Edward e Alphonse seguem em direções separadas em busca de pistas sobre a Pedra Filosofal. Enquanto Edward enfrenta desafios em sua jornada, Alphonse encontra um grupo de alquimistas que o ajudam a entender melhor o que aconteceu com seus corpos.</p>
+        <button id="btnTrailer2">Assistir ao Trailer</button>
+      </div>
+      <div class="episode">
+        <img src="img/episodio3.jpg" alt="Episódio 3">
+        <h3>O fim da jornada</h3>
+        <p>O episódio culmina na batalha final contra o líder homúnculo, Father. É uma resolução emocional para os irmãos Elric, que finalmente enfrentam as consequências de suas ações e descobrem a verdadeira natureza da alquimia e do sacrifício.</p>
+        <button id="btnTrailer3">Assistir ao Trailer</button>
+      </div>
+    </section>
+
+    <div class="music-player">
+        <h3>A abertura do anime</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/elyXcwunIYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close1">&times;</span>
+        <h3>Trailer do Episódio 1</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AYlksPeSXrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close2">&times;</span>
+        <h3>Trailer do Episódio 2</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AYlksPeSXrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close" id="close3">&times;</span>
+        <h3>Trailer do Episódio 3</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AYlksPeSXrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Anime Showcase</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
